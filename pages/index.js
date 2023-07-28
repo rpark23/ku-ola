@@ -32,7 +32,7 @@ export default function Home() {
             <a className={styles.signup} href="https://www.uhcancercenter.org/kane" target="_blank">Sign Up for a Session!</a>
           </div>
           <div className={styles.mission_video}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/SWN9w_zaDCk?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U-z6q5tx0_4?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
           </div>
         </div>
 
