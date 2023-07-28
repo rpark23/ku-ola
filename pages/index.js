@@ -23,8 +23,6 @@ export default function Home() {
       <NavBar />
 
       <div className={styles.intro}>
-
-
         <div className={styles.landing}>
           <div className={styles.kukakuka}>
             <h2>Kāne Kūkākūkā</h2>
@@ -79,7 +77,7 @@ export default function Home() {
             <div className={styles.cultural_module}>
               <h3><em>‘Ai Pono</em></h3>
               <div className={styles.cultural_video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BXzBOEeX80Q?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BXzBOEeX80Q?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div>
               <p>
                 Uncle Herbert Hoe shares his mana‘o about ‘ai pono which aims to improve the health of Native 
@@ -87,13 +85,13 @@ export default function Home() {
                 how they will benefit you and your ‘ohana!
               </p>
               {/* <div className={styles.cultural_video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BXzBOEeX80Q?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BXzBOEeX80Q?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div> */}
             </div>
             <div className={styles.cultural_module}>
               <h3><em>Kaula</em></h3>
               <div className={styles.cultural_video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0KMJ5CQxJ88?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0KMJ5CQxJ88?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div>
               <p>
                 Sonny Kaulukuku teaches the Hawaiian art of kaula [cordage]. Kaula formed a key cornerstone of Hawaiian 
@@ -104,7 +102,7 @@ export default function Home() {
             <div className={styles.cultural_module}>
               <h3><em>Pule</em></h3>
               <div className={styles.cultural_video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/sgAGqwU4Jeo?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sgAGqwU4Jeo?rel=0&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
               </div>
               <p>
                 We share our ‘ike on the message of Pule, and its role in the lives of our ancestors and us today. 
