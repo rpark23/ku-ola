@@ -1,0 +1,301 @@
+.NavBar {
+  align-items: center;
+  background-color: #faf2d9;
+  /* background-color: white; */
+  display: flex;
+  padding: 1.25vh;
+  position: sticky;
+  width: 100%;
+}
+
+.NavBar .logo_container {
+  height: 7.5vh;
+  margin-left: 2vw;
+  position: relative;
+  width: 22.875vh;
+}
+
+.container {
+  align-items: center;
+  background-color: #faf2d9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.intro {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  /* width: 90%; */
+}
+
+.landing {
+  align-items: center;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.kukakuka {
+  margin: 3vh 0;
+  width: 80vw;
+}
+
+.kukakuka h2 {
+  font-size: calc(4vh + 0.8vw);
+}
+
+.kukakuka p { 
+  /* font-size: calc(1.8vh + 0.6vw); */
+  /* font-size: calc(2vh + 0.4vw); */
+  margin-top: 1.5vh;
+}
+
+.signup {
+  align-items: center;
+  background-color:  #6889EB;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  /* font-size: calc(1.8vh + 0.6vw); */
+  /* font-size: calc(2vh + 0.4vw); */
+  justify-content: center;
+  /* margin-top: 1vh; */
+  margin: 2.5vh auto 1vh;
+  padding: 0.75rem;
+  /* padding: calc(1.2vh + 0.3vw) 0; */
+  width: 100%;
+  background-color: #2a53b8;
+}
+
+.signup:hover {
+  background-color: #1340b1;
+}
+
+.mission_video {
+  /* display: none; */
+}
+
+.mission_video iframe {
+  height: 56.25vw;
+  width: 100vw;
+}
+
+/* .video_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  width: 100vw;
+}
+
+.video_container iframe {
+  height: 56.25vw;
+  width: 100%;
+
+  max-height: calc(32vh + 18vw);
+  max-width: calc(64vh + 32vw);
+} */
+
+.stripe {
+  align-items: center;
+  background-color:#F4E3AC;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 2vh 0 2.5vh;
+  width: 100vw;
+}
+
+.about {
+  align-items: center;
+  display: flex;
+  /* font-size: calc(1.8vh + 0.6vw); */
+  /* margin-top: 1.5vh; */
+  justify-content: center;
+  width: 90vw;
+
+  /* max-width: calc(64vh + 31vw); */
+}
+
+.about p {
+  /* width: calc(90vw - 20vh); */
+  /* font-size: calc(1.6vh + 0.4vw); */
+  /* font-size: calc(2vh + 0.4vw); */
+  margin: 1vh 0;
+  width: 100%;
+}
+
+.kekuni_image {
+  border-radius: 2.5vh;
+  height: 25.72vh;
+  margin-right: calc(1.5vh + 0.5vw);
+  overflow: hidden;
+  position: relative;
+  width: 20vh;
+}
+
+.uhcc_logo {
+  border-radius: 2vh;
+  height: 10vh;
+  overflow: hidden;
+  position: relative;
+  width: 17.7vh;
+}
+
+.kekuni_image_desktop {
+  display: none;
+  /* border-radius: 2.5vh;
+  height: 25.72vh;
+  margin-right: calc(1.5vh + 0.5vw);
+  overflow: hidden;
+  position: relative;
+  width: 20vh; */
+}
+
+.uhcc_logo_desktop {
+  display: none;
+  /* border-radius: 2vh;
+  height: 10vh;
+  overflow: hidden;
+  position: relative;
+  width: 17.7vh; */
+}
+
+.cultural {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0 4vh;
+}
+
+.cultural h2 {
+  font-size: calc(4vh + 0.8vw);
+  margin-top: 2vh;
+}
+
+.cultural_module {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.3vh;
+}
+
+.cultural_module_description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.cultural_module h3 {
+  font-size: 1.5rem;
+}
+
+.cultural_module p {
+  margin-top: 1.5vh;
+  width: 90%;
+}
+
+.cultural_video_desktop {
+  display: none;
+}
+
+.cultural_video {
+  margin-top: 1.5vh;
+}
+
+.cultural_video iframe {
+  height: 56.25vw;
+  width: 100vw;
+  /* height: 53.4375vw;
+  width: 95vw; */
+}
+
+@media screen and (min-width: calc(64vh + 32vw)) {
+  .landing {
+    flex-direction: row;
+    /* padding: 6vh 0; */
+    padding: 4vh 0 6vh;
+  }
+
+  .kukakuka {
+    font-size: calc(2vh + 0.4vw);
+    margin-right: 4vw;
+    width: 33vw;
+  }
+
+  .kukakuka p { 
+    margin-top: 2.5vh;
+  }
+
+  .mission_video iframe {    
+    max-height: calc(18vh + 9vw);
+    max-width: calc(32vh + 16vw);
+  }
+
+  .stripe h2 {
+    font-size: 2.2rem;
+    margin-top: 2vh;
+  }
+
+  .about p {
+    font-size: 1.1rem;
+    text-align: center;
+    width: 40vw;
+  }
+
+  .kekuni_image_desktop {
+    display: block;
+    height: 20.2vh;
+    margin-right: 3rem;
+    position: relative;
+    width: 19.7vh;
+  }
+  
+  .uhcc_logo_desktop {
+    border-radius: 2vh;
+    display: block;
+    height: 15vh;
+    overflow: hidden;
+    margin-left: 3rem;
+    position: relative;
+    width: 26.55vh;
+  }
+
+
+
+  .cultural_modules {
+    flex-direction: row;
+  }
+
+  .cultural h2 {
+    font-size: 2.2rem;
+  }
+
+  .cultural_modules {
+    display: flex;
+  }
+
+  .cultural_module {
+    margin-right: 2rem;
+  }
+
+  .cultural_module p {
+    text-align: center;
+    width: 25vw;
+  }
+
+  .cultural_video_desktop {
+    display: block;
+  }
+
+  .cultural_video iframe { 
+    height: 13.5vw;   
+    width: 24vw;
+  }
+}
