@@ -28,14 +28,11 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  
   overflow-y: scroll;
-  /* width: 90%; */
 }
 
 .landing {
   align-items: center;
-  /* background-color: black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,34 +75,25 @@
   background-color: #1340b1;
 }
 
-.mission_video {
-  /* display: none; */
+.announcement {
+  color: #2a53b8;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
 }
 
 .mission_video iframe {
+  border-style: none;
   height: 56.25vw;
   width: 100vw;
 }
-
-/* .video_container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 1px;
-  width: 100vw;
-}
-
-.video_container iframe {
-  height: 56.25vw;
-  width: 100%;
-
-  max-height: calc(32vh + 18vw);
-  max-width: calc(64vh + 32vw);
-} */
 
 .stripe {
   align-items: center;
-  background-color:#F4E3AC;
+  background-color:#f4e3ac;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -168,11 +156,44 @@
   width: 17.7vh; */
 }
 
-.cultural {
+.announcements {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: 2vh 0 6vh;
+}
+
+.announcements h2 {
+  font-size: calc(4vh + 0.8vw);
+  margin: 2vh 0;
+}
+
+.announcements p {
+  margin-top: 2vh;
+  width: 95%;
+}
+
+.announcements h3 {
+  font-size: calc(3vh + 0.6vw);
+  margin-top: 3vh;
+}
+
+.zoomInfo {
+  width: 95%;
+}
+
+.zoomInfo a {
+  color: blue;
+}
+
+.cultural {
+  align-items: center;
+  background-color: #f4e3ac;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0 6vh;
+
+  width: 100%;
 }
 
 .cultural h2 {
@@ -212,17 +233,17 @@
 }
 
 .cultural_video iframe {
+  border-style: none;
   height: 56.25vw;
   width: 100vw;
-  /* height: 53.4375vw;
-  width: 95vw; */
 }
 
 @media screen and (min-width: calc(64vh + 32vw)) {
   .landing {
     flex-direction: row;
-    /* padding: 6vh 0; */
-    padding: 4vh 0 6vh;
+    padding: 4vh 0;
+    /* padding: 4vh 0 6vh; */
+    
   }
 
   .kukakuka {
@@ -233,6 +254,11 @@
 
   .kukakuka p { 
     margin-top: 2.5vh;
+  }
+
+  .announcement {
+    /* font-size: calc(2vh + 0.4vw); */
+    font-size: 1.3rem;
   }
 
   .mission_video iframe {    
@@ -272,7 +298,32 @@
     width: 13.275rem;
   }
 
+  .announcements {
+    width: 100%;
+  }
 
+  .announcements h2 {
+    font-size: 2.2rem;
+  }
+
+  .announcements p {
+    font-size: 1.1rem;
+    width: 48rem;
+  }
+
+  .announcements h3 {
+    font-size: 1.6rem;
+  }
+
+  .zoomInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .zoomInfo p {
+    width: 48rem;
+  }
 
   .cultural_modules {
     flex-direction: row;
